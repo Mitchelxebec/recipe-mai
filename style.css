@@ -1,0 +1,362 @@
+@font-face {
+    font-family: "Outfit";
+
+    src: url(font/Outfit-Black.ttf);
+    /* src: url(font/Outfit-Bold.ttf);
+    src: url(font/Outfit-ExtraBold.ttf);
+    src: url(font/Outfit-ExtraLight.ttf);
+    src: url(font/Outfit-Light.ttf);
+    src: url(font/Outfit-Medium.ttf);
+    src: url(font/Outfit-Regular.ttf);
+    src: url(font/Outfit-SemiBold.ttf);
+    src: url(font/Outfit-Thin.ttf);
+    src: url(font/Outfit-VariableFont_wght.ttf);
+    src: url(font/YoungSerif-Regular.ttf); */
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(30, 54%, 90%);
+}
+
+.second-color {
+    background-color: #fff;
+    height: fit-content;
+    width: 45%;
+    padding: 25px 29px;
+    transform: translate(0, 50px);
+    border-radius: 20px;
+    margin: auto;
+}
+
+img[src="images/image-omelette.jpeg"] {
+    height: 375px;
+    width: 100%;
+    border-radius: 13px;
+}
+
+.recipe-write-up {
+    margin-top: 50px;
+    font-size: 16px;
+    padding-bottom: 30px;
+}
+
+@font-face {
+    font-family: "YoungSerif";
+    src: url(font/YoungSerif-Regular.ttf);
+}
+
+h1 {
+    font-family: "YoungSerif";
+    padding-bottom: 25px;
+}
+
+@font-face {
+    font-family: "Outfit";
+    src: url(font/Outfit-Medium.ttf);
+}
+
+.first-write-up {
+    font-family: "Outfit";
+    font-size: 15px;
+}
+
+.prep-time {
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 13px;
+}
+
+@font-face {
+    font-family: "Outfit";
+    src: url(font/Outfit-Bold.ttf);
+}
+
+.prep-time-header {
+    font-family: "Outfit";
+    color: hsl(332, 51%, 32%);
+}
+
+.first-list {
+    margin-left: 30px;
+    margin-top: 30px;
+    text-align: left;
+    list-style-position: outside;
+}
+
+/* ::marker {
+    color: hsl(332, 51%, 32%);
+    margin-right: 30px;
+} */
+
+.first-list {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.first-list>li {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: "Outfit";
+    margin-bottom: 30px;
+}
+
+.first-list>li>p {
+    display: flex;
+    margin-left: 30px;
+    font-size: 13.5px;
+}
+
+.custom-bullet {
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    background-color: hsl(332, 51%, 32%);
+    border-radius: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "Outfit";
+    src: url(font/Outfit-Bold.ttf);
+}
+
+.first-list>li>p>span {
+    font-family: "Outfit";
+    font-weight: bolder;
+}
+
+@font-face {
+    font-family: "Outfit";
+    src: url(font/Outfit-Regular.ttf);
+}
+
+
+
+/* INGREDIENTS SECTION */
+
+.ingredients {
+    margin-top: 35px;
+}
+
+@font-face {
+    font-family: "YoungSerif";
+    src: url(font/YoungSerif-Regular.ttf);
+}
+
+h2 {
+    font-family: "YoungSerif";
+    font-weight: 300;
+    color: hsl(14, 45%, 36%);
+}
+
+.second-list {
+    margin-top: 25px;
+    margin-left: 30px;
+    position: absolute;
+    position: relative;
+}
+
+.second-list>li>.custom-point {
+    display: inline-flex;
+}
+
+.second-list>li {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: "Outfit";
+    margin-bottom: 30px;
+}
+
+.second-list>li>p {
+    display: flex;
+    margin-left: 30px;
+    font-size: 14px;
+}
+
+.custom-point {
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    background-color: hsl(14, 45%, 36%);
+    border-radius: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* INSTRUCTIONS SECTION */
+
+.instruction {
+    margin-top: 20px;
+    padding-bottom: 40px;
+}
+
+::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+    font-family: "YoungSerif";
+}
+
+ol {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+ol>li {
+    font-family: "Outfit";
+    margin-left: 45px;
+}
+
+ol>li>p>span {
+    font-family: "Outfit";
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+ol>li>p {
+    margin-top: 19px;
+    margin-left: 4px;
+    font-size: 13px;
+}
+
+
+
+/* NUTRITION SECTION */
+
+.nutrition {
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.nutrition>p {
+    margin-top: 19px;
+    margin-left: 4px;
+    font-size: 14px;
+    font-family: "Outfit";
+}
+
+.nutrition-table {
+    margin-top: 25px;
+}
+
+ul {
+    list-style: none;
+}
+
+.nutrition-table>ul>li {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5px;
+}
+
+.forth-list>li>p {
+    font-family: "Outfit";
+    font-size: 14px;
+    display: inline-flex;
+}
+
+.forth-list>li>span {
+    color: hsl(14, 45%, 36%);
+    font-family: "Outfit";
+    font-weight: bolder;
+    font-size: 14px;
+    display: inline-flex;
+    margin-left: 50%;
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 380px) {
+    body {
+        background-color: #fff;
+        width: 100%;
+        margin: auto;
+        overflow-x: hidden;
+    }
+
+    .second-color {
+        width: 375px;
+    }
+
+    img[src="images/image-omelette.jpeg"] {
+        height: 200px;
+        max-width: 375px;
+        width: 375px;
+        border-radius: 0;
+        transform: translate(-23px, -90px);
+        position: absolute;
+        top: 0;
+    }
+
+    .recipe-write-up {
+        padding-bottom: 20px;
+        margin-top: 90px;
+    }
+
+    h1 {
+        font-weight: 400;
+        padding-bottom: 19px;
+    }
+
+    .first-write-up {
+        font-size: 15px;
+    }
+
+    .prep-time {
+        max-width: 375px;
+    }
+
+    .prep-time-header {
+        padding-top: 20px;
+        margin-left: 10px;
+        font-size: medium;
+    }
+
+    .custom-bullet {
+        width: 5px;
+        height: 5px;
+        margin-bottom: 15px;
+    }
+
+    .first-list>li>p {
+        margin-right: 20px;
+        font-size: 15px;
+    }
+
+    .custom-point {
+        width: 5px;
+        height: 5px;
+    }
+
+    .second-list>li>p {
+        font-size: 15px;
+    }
+
+    ol>li>p {
+        font-size: 15.5px;
+    }
+
+    .nutrition>p {
+        font-size: 16.5px;
+    }
+}
